@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/music_bg"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6F020000">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ListView
+        android:id="@+id/songList"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/borde_redondos"
+        android:padding="20dp"></ListView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/brd_curvo"
+        android:gravity="center"
+        android:shadowColor="#03A9F4"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:shadowRadius="4"
+        android:text="@string/app_creator"
+        android:textColor="#F8F4F4"
+        android:textSize="19sp" />
+
+</RelativeLayout>
+
+
